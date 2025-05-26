@@ -34,6 +34,6 @@ class Cuantificadores:
     
     def imprimir_todos(lista):
         print("Evaluando el predicado con el cuantificador Para todo, la veracidad es: ", traduccion[Cuantificadores.para_todos(lista)])
-        print("Evaluando el predicado con el cuantificador Existe almenos uno, la veracidad es: ", traduccion[Cuantificadores.existe(lista)])
+        print("Evaluando el predicado con el cuantificador Existe al menos uno, la veracidad es: ", traduccion[Cuantificadores.existe(lista)])
         print("Evaluando el predicado con el cuantificador Existe un unico, la veracidad es: ", traduccion[Cuantificadores.existe_un_unico(lista)])
         print("Evaluando el predicado con el cuantificador No existe ninguno, la veracidad es: ", traduccion[Cuantificadores.no_existe(lista)])

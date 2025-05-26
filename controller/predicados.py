@@ -1,4 +1,4 @@
-class Proposiciones:
+class Predicados:
     def __init__ (self):
         self
     
